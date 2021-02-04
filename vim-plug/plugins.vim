@@ -57,6 +57,11 @@ if !exists('g:vscode')
   Plug 'vim-airline/vim-airline-themes'
   Plug 'ryanoasis/vim-devicons'
   Plug 'whatyouhide/vim-gotham'
+  "Markdown plugins
+  Plug 'pbrisbin/vim-mkdir'
+  Plug 'plasticboy/vim-markdown',{ 'for': 'markdown' }
+ " Plug 'vimwiki/vimwiki', { 'branch': 'dev' }
+  "Plug 'tpope/vim-markdown'
 endif
 call plug#end()
 autocmd VimEnter *

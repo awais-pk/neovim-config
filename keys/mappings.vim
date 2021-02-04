@@ -24,4 +24,5 @@ if !exists('g:vscode')
   nnoremap j gj
   nnoremap gj j
   nnoremap <Leader>s :source $MYVIMRC
+  nnoremap <Leader>ww :e ~/Documents/Notes/index.md<cr>
 endif

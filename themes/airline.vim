@@ -1,5 +1,4 @@
 " enable tabline
-let g:airline_section_y = 'awaispk '
 let g:airline_section_b = '%t'
 let g:airline_section_c =''
 let g:airline#extensions#tabline#enabled = 1

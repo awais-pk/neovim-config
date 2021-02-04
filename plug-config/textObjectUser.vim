@@ -21,15 +21,15 @@
 "      \ })
 ""Define al to select the current line, and define il to select the current line 
 ""without indentation:
-"call textobj#user#plugin('line', {
-"\   '-': {
-"\     'select-a-function': 'CurrentLineA',
-"\     'select-a': 'al',
-"\     'select-i-function': 'CurrentLineI',
-"\     'select-i': 'il',
-"\   },
-"\ })
-"
+call textobj#user#plugin('line', {
+\   '-': {
+\     'select-a-function': 'CurrentLineA',
+\     'select-a': 'al',
+\     'select-i-function': 'CurrentLineI',
+\     'select-i': 'il',
+\   },
+\ })
+
 function! CurrentLineA()
   normal! 0
   let head_pos = getpos('.')

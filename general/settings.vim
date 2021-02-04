@@ -2,7 +2,7 @@
 let g:mapleader = "\<Space>"
 set nocompatible
 filetype plugin on
-
+set path+=**
 if !exists('g:vscode')
   syntax enable                           " Enables syntax highlighing
   set ignorecase 
