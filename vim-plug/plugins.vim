@@ -7,62 +7,43 @@ if empty(glob('~/.config/nvim/autoload/plug.vim'))
 endif
 
 call plug#begin('~/.config/nvim/autoload/plugged')
-"Plug 'liuchengxu/vim-which-key', { 'on': ['WhichKey', 'WhichKey!'] }
-"Text objects plugins
+
 Plug 'kana/vim-textobj-entire'
 Plug 'kana/vim-textobj-user'
 Plug 'kana/vim-textobj-function'
-Plug 'rhysd/vim-textobj-clang'
 Plug 'michaeljsmith/vim-indent-object'
 Plug 'Julian/vim-textobj-variable-segment'
 
 Plug 'rhysd/clever-f.vim'
-Plug 'jeetsukumaran/vim-pythonsense'
 Plug 'junegunn/vim-easy-align'
 Plug 'tommcdo/vim-exchange'
-Plug 'libclang-vim/libclang-vim'
 Plug 'tpope/vim-surround'
 Plug 'machakann/vim-highlightedyank'
 Plug 'preservim/nerdcommenter'
 Plug 'justinmk/vim-sneak'
-if exists('g:vscode')
-  Plug 'asvetliakov/vim-easymotion'
-endif
 
-if !exists('g:vscode')
-  " Plug 'frazrepo/vim-rainbow'
-  " C++ related plugins
-  Plug 'jackguo380/vim-lsp-cxx-highlight'
-  Plug 'vim-syntastic/syntastic'
-  Plug 'rhysd/vim-clang-format'
-  " ------------------
-"  Plug 'tpope/vim-eunuch'
-  Plug 'vim-scripts/bash-support.vim'
-  Plug 'ctrlpvim/ctrlp.vim'
-  Plug 'tpope/vim-apathy'
-  Plug 'raghur/vim-ghost', {'do': ':GhostInstall'}
-  Plug 'neoclide/coc.nvim', {'branch': 'release'}
-  Plug 'tpope/vim-dadbod'
-  Plug 'easymotion/vim-easymotion'
-  Plug 'tpope/vim-fugitive'
-  Plug 'mhinz/vim-startify'
-  Plug 'ap/vim-css-color'
-  Plug 'tpope/vim-fugitive'
-  Plug 'tomasiser/vim-code-dark'
-  Plug 'sheerun/vim-polyglot'
-  Plug 'scrooloose/NERDTree'
-  Plug 'jiangmiao/auto-pairs'
-  Plug 'joshdick/onedark.vim'
-  Plug 'vim-airline/vim-airline'
-  Plug 'vim-airline/vim-airline-themes'
-  Plug 'ryanoasis/vim-devicons'
-  Plug 'whatyouhide/vim-gotham'
-  "Markdown plugins
-  Plug 'pbrisbin/vim-mkdir'
-  Plug 'plasticboy/vim-markdown',{ 'for': 'markdown' }
- " Plug 'vimwiki/vimwiki', { 'branch': 'dev' }
-  "Plug 'tpope/vim-markdown'
-endif
+" Plug 'frazrepo/vim-rainbow'
+Plug 'vim-syntastic/syntastic'
+Plug 'ctrlpvim/ctrlp.vim'
+Plug 'tpope/vim-apathy'
+Plug 'raghur/vim-ghost', {'do': ':GhostInstall'}
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'tpope/vim-dadbod'
+Plug 'easymotion/vim-easymotion'
+Plug 'tpope/vim-fugitive'
+Plug 'mhinz/vim-startify'
+Plug 'ap/vim-css-color'
+Plug 'tpope/vim-fugitive'
+Plug 'tomasiser/vim-code-dark'
+Plug 'sheerun/vim-polyglot'
+Plug 'scrooloose/NERDTree'
+Plug 'jiangmiao/auto-pairs'
+Plug 'joshdick/onedark.vim'
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
+Plug 'ryanoasis/vim-devicons'
+Plug 'whatyouhide/vim-gotham'
+Plug 'pbrisbin/vim-mkdir'
 call plug#end()
 autocmd VimEnter *
       \  if len(filter(values(g:plugs), '!isdirectory(v:val.dir)'))
