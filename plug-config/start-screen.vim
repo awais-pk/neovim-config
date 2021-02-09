@@ -8,6 +8,5 @@ let g:startify_bookmarks = [
       \ { 'i': '~/.config/nvim/init.vim' },
       \ { 'm': '~/.config/nvim/keys/mappings.vim' },
       \ { 's':'~/.config/nvim/general/settings.vim'},
-      \ { 'c': '~/.config/nvim/CheatSheet.md' },
-      \ { 'z': '~/.zshrc' }
+      \ { 'c': '~/.config/nvim/CheatSheet.md' }
       \ ]

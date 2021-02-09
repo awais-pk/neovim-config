@@ -1,6 +1,5 @@
 source $HOME/.config/nvim/vim-plug/plugins.vim
 source $HOME/.config/nvim/keys/mappings.vim
-source $HOME/.config/nvim/general/vscode.vim
 source $HOME/.config/nvim/plug-config/vim-highlight.vim
 source $HOME/.config/nvim/plug-config/matchit.vim
 source $HOME/.config/nvim/plug-config/textObjectUser.vim
