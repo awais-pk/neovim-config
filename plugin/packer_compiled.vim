@@ -180,10 +180,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/awais/.local/share/nvim/site/pack/packer/start/packer.nvim"
   },
-  phpactor = {
-    loaded = true,
-    path = "/home/awais/.local/share/nvim/site/pack/packer/start/phpactor"
-  },
   playground = {
     loaded = true,
     path = "/home/awais/.local/share/nvim/site/pack/packer/start/playground"
@@ -279,6 +275,10 @@ _G.packer_plugins = {
   ["vim-rooter"] = {
     loaded = true,
     path = "/home/awais/.local/share/nvim/site/pack/packer/start/vim-rooter"
+  },
+  ["vim-surround"] = {
+    loaded = true,
+    path = "/home/awais/.local/share/nvim/site/pack/packer/start/vim-surround"
   },
   ["vim-textobj-entire"] = {
     loaded = true,

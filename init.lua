@@ -46,6 +46,7 @@ require('nv-dependency')
 vim.cmd('source ~/.config/nvim/vimscript/nv-whichkey/init.vim')
 vim.cmd('source ~/.config/nvim/vimscript/functions.vim')
 vim.cmd('source ~/.config/nvim/vimscript/userTextObject.vim')
+vim.cmd('source ~/.config/nvim/lua/neovide/neovide.vim')
 
 -- LSP
 require('lsp')

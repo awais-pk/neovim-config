@@ -86,7 +86,7 @@ require"lspconfig".efm.setup {
     settings = {
         rootMarkers = {".git/"},
         languages = {
-            python = python_arguments,
+            -- python = python_arguments,
             lua = lua_arguments,
             sh = sh_arguments,
             javascript = tsserver_args,

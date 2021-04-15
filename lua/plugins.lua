@@ -92,10 +92,12 @@ return require('packer').startup(function(use)
     -- use 'turbio/bracey.vim'
 
     -- Php
-    use 'phpactor/phpactor'
+    -- use 'phpactor/phpactor'
 
     -- Flutter
     use 'thosakwe/vim-flutter'
+    use 'Neevash/awesome-flutter-snippets'
+
 
     -- Dependency assistent
     use 'akinsho/dependency-assist.nvim'
@@ -135,6 +137,7 @@ return require('packer').startup(function(use)
 
 
     use 'blackcauldron7/surround.nvim'
+    use 'tpope/vim-surround'
     use 'kana/vim-textobj-entire'
     use 'kana/vim-textobj-user'
     use 'kana/vim-textobj-function'
